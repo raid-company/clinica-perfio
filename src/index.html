@@ -11,19 +11,25 @@
 </head>
 
 <body>
-    <section class="top-page bg-gradient-to-b from-slate-50 to-stone-400">
-        <div class="img-top-page">
-            <img src="./img/roberio-mobile.png" alt="Roberio">
+    <section class="top-page bg-gradient-to-b from-slate-50 to-stone-400 md:flex flex-row-reverse">
+        <div class="img-side">
+            <div class="img-top-page">
+                <img src="./img/roberio-mobile.png" alt="Roberio" class="block md:hidden">
+                <img src="./img/roberio-desktop.png" alt="Roberio" class="hidden md:block">
+            </div>
         </div>
-        <div class="text-top-page flex-row items-center justify-center">
-            <img class="text-center" src="./img/logo-top-page.png" alt="">
-            <img src="./img/text-top-page.png" alt="">
+        <div class="text-side md:pt-10">
+            <div class="text-top-page flex-row items-center justify-center">
+                <img class="text-center" src="./img/logo-top-page.png" alt="">
+                <img src="./img/text-top-page.png" alt="">
+            </div>
+            <div class="button-consulta flex bg-[#1E1E1E] rounded-2xl p-3 justify-between items-center text-white mt-6">
+                <a href="http://" class="flex-grow text-center">Agende sua consulta</a>
+                <img src="./img/icons/seta.png" alt="">
+            </div>
+            <p class="text-white text-[12px] p-1"><span class="text-[#1E1E1E] font-bold">Responsavel Técnico: Dr. Robério matias</span>  CRM-PB 6105 | RQE 3715</p>
         </div>
-        <div class="button-consulta flex bg-[#1E1E1E] rounded-2xl p-3 justify-between items-center text-white mt-6">
-            <a href="http://" class="flex-grow text-center">Agende sua consulta</a>
-            <img src="./img/icons/seta.png" alt="">
-        </div>
-        <p class="text-white text-[12px] p-1"><span class="text-[#1E1E1E] font-bold">Responsavel Técnico: Dr. Robério matias</span>  CRM-PB 6105 | RQE 3715</p>     
+             
     </section>
     
 </body>
