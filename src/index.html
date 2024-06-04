@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <section class="top-page bg-gradient-to-b from-slate-50 to-stone-400 md:flex flex-row-reverse">
+<body class="bg-gradient-to-t from-slate-50 to-stone-400">
+    <section class="top-page  md:flex flex-row-reverse">
         <div class="img-side">
             <div class="img-top-page">
                 <img src="./img/roberio-mobile.png" alt="Roberio" class="block md:hidden">
@@ -23,14 +23,83 @@
                 <img class="text-center" src="./img/logo-top-page.png" alt="">
                 <img src="./img/text-top-page.png" alt="">
             </div>
-            <div class="button-consulta flex bg-[#1E1E1E] rounded-2xl p-3 justify-between items-center text-white mt-6">
-                <a href="http://" class="flex-grow text-center">Agende sua consulta</a>
-                <img src="./img/icons/seta.png" alt="">
+            <div class="button-consulta flex bg-[#1E1E1E] rounded-2xl p-3 m-3 md:p-4 justify-between items-center text-white mt-6">
+                <a href="http://" class="flex-grow text-center text-sm md:text-base">Agende sua consulta</a>
+                <img src="./img/icons/seta.png" alt="" class="md:ml-2">
             </div>
-            <p class="text-white text-[12px] p-1"><span class="text-[#1E1E1E] font-bold">Responsavel Técnico: Dr. Robério matias</span>  CRM-PB 6105 | RQE 3715</p>
+            
+            <p class="text-white text-[12px] p-1 md:text-[15.6px]"><span class="text-[#1E1E1E] font-bold">Responsavel Técnico: Dr. Robério Matias</span>  CRM-PB 6105 | RQE 3715</p>
         </div>
-             
     </section>
+    <section class="w-full flex justify-center text-white mt-10">
+        <div class="nav-itens bg-[#949494] flex gap-6 p-2 rounded-[20px] w-80 mx-auto md:w-1/2 justify-evenly">
+
+            <a href="http://" class="flex flex-col items-center">
+                <img src="./img/icons/Camera.png" alt="">
+                <p class="text-center">Galeria</p>
+            </a>
+            <img src="./img/icons/Line 4.png" alt="">
+            <a href="http://" class="flex flex-col items-center">
+                <img src="./img/icons/help-circle.png" alt="">
+                <p class="text-center">Perguntas</p>
+            </a>
+            <img src="./img/icons/Line 4.png" alt="">
+            <a href="http://" class="flex flex-col items-center">
+                <img src="./img/icons/user.png" alt="">
+                <p>Sobre nós</p>
+            </a>
+        </div>
+    </section>
+
+    <div class="button-consulta flex bg-[#1E1E1E] rounded-2xl p-3 m-3 md:p-4 justify-between items-center text-white mt-6 md:w-1/2 mx-auto">
+        <a href="http://" class="flex-grow text-center text-sm md:text-base">Agende sua consulta</a>
+        <img src="./img/icons/seta.png" alt="" class="md:ml-2">
+    </div>
+    
+    <section class="p-6">
+        <p class="text-center text-[40px]">Galeria</p>
+        <div class="flex flex-wrap justify-center">
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-1.png" alt="Imagem 1" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-2.png" alt="Imagem 2" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-3.png" alt="Imagem 3" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-4.png" alt="Imagem 4" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-5.png" alt="Imagem 5" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+            <div class="gallery-item m-4 flex flex-col items-center">
+                <img src="./img/galeria/img-6.png" alt="Imagem 6" class="rounded-lg shadow-md">
+                <button class="view-more-button bg-[#1E1E1E] text-white py-2 px-4 mt-[-10px] rounded-[20px]">Ver mais</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 </body>
 </html>
