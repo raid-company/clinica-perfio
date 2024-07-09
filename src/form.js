@@ -1,9 +1,4 @@
-document.getElementById('myForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Previne o comportamento padrão do formulário
-    sendwhatsapp(); // Chama a função para enviar a mensagem no WhatsApp
-  });
-
-  function sendwhatsapp() {
+function sendwhatsapp() {
     var telefone = "83993930599";
     var nome = document.getElementById("first_name").value;
     var sobrenome = document.getElementById("last_name").value;
