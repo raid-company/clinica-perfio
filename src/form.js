@@ -1,11 +1,8 @@
 function handleSubmit(event) {
-  event.preventDefault(); // Evita o recarregamento da página
+  event.preventDefault(); //block para não fica recarregando a pagina no formulario 
 
-  // Exibe o modal
   const modal = document.getElementById('static-modal');
   modal.classList.remove('hidden');
-
-  // Adicione qualquer lógica adicional aqui, como redirecionamento para o WhatsApp
 }
 
 
